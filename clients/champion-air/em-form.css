@@ -646,23 +646,27 @@ background-color: #D9DEE9 !important;
 
 
 /* Recolor input tables with more tasteful blue gray */
-.form-matrix-values {
+.form-matrix-values
+  {
+        background-color: #F6F7FA !important; /* Change this hex code to your desired color */
+    }
+
+td.form-matrix-values input
+{
   background-color: #F6F7FA !important;
 }
 
-td.form-matrix-values input {
-  background-color: #F6F7FA !important;
-}
 
 td.form-matrix-values:nth-child(n+1) input {
   border: 0px solid #d0d0d0 !important;
+ 
 }
 
 /* Header row */
 tr.form-matrix-header-tr td {
   background-color: #D9DEE9 !important;
   color: #000 !important;
-  text-align: center !important;
+
   vertical-align: middle !important;
 }
 
@@ -675,13 +679,14 @@ tr.form-matrix-header-tr td:first-child {
 td.form-matrix-headers {
   background-color: #D9DEE9 !important;
   color: #000 !important;
+
   vertical-align: middle !important;
 }
 
 /* Row label text */
 td.form-matrix-headers label {
   color: #000 !important;
-  text-align: center !important;
+ 
 }
 
 /* Zebra striping */
@@ -695,6 +700,7 @@ tr.form-matrix-value-tr:nth-child(even) td.form-matrix-values {
 
 /* Center input values */
 td.form-matrix-values input {
+  text-align: center !important;
   background: transparent !important;
 }
 
