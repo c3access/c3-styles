@@ -168,7 +168,7 @@ label#label_903, #label_997, #label_1053,
 #label_1642, #label_1648, #label_1654,
 #label_1660, #label_1666, #label_1672,
 #label_1678, #label_1684, #label_1690,
-#label_1696
+#label_1696, #label_1552, #label_1558
 {
   display: none!important;
 }
@@ -446,7 +446,8 @@ li#id_1080 .form-checkbox-item:hover, li#id_1086 .form-checkbox-item:hover,
  li#id_1375 .form-checkbox-item:hover, li#id_1381 .form-checkbox-item:hover, 
  li#id_1411 .form-checkbox-item:hover, li#id_1417 .form-checkbox-item:hover, li#id_1423 .form-checkbox-item:hover,
  li#id_1429 .form-checkbox-item:hover, li#id_1435 .form-checkbox-item:hover, li#id_1441 .form-checkbox-item:hover,
- li#id_1447 .form-checkbox-item:hover, li#id_1453 .form-checkbox-item:hover {
+ li#id_1447 .form-checkbox-item:hover, li#id_1453 .form-checkbox-item:hover, li#id_1551 .form-checkbox-item:hover, 
+ li#id_1557 .form-checkbox-item:hover {
  background-color: #f7f7f7;
  transition:350ms;
  }
@@ -478,7 +479,8 @@ li#id_1080 .form-checkbox-item:hover, li#id_1086 .form-checkbox-item:hover,
  li#id_1447 .form-checkbox-item, li#id_1453 .form-checkbox-item, li#id_1492 .form-checkbox-item,
  li#id_1497 .form-checkbox-item, li#id_1641 .form-checkbox-item, li#id_1647 .form-checkbox-item, li#id_1653 .form-checkbox-item, li#id_1659 .form-checkbox-item,
  li#id_1665 .form-checkbox-item, li#id_1671 .form-checkbox-item, li#id_1677 .form-checkbox-item,
- li#id_1683 .form-checkbox-item, li#id_1695 .form-checkbox-item, li#id_1689 .form-checkbox-item
+ li#id_1683 .form-checkbox-item, li#id_1695 .form-checkbox-item, li#id_1689 .form-checkbox-item,
+ li#id_1551 .form-checkbox-item, li#id_1557 .form-checkbox-item
  {
   font-weight: 500;
   width: 100%;
