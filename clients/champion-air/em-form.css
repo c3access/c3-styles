@@ -192,6 +192,12 @@ background-color: #3d5294 !important;
 border-color: #3d5294 !important;
 }
 
+/* Force white checkmark via ::after */
+.form-checkbox:checked + label:after {
+  background-color: #ffffff !important;
+}
+
+
 .nicEdit-panelContain{
 display: none;
 }
