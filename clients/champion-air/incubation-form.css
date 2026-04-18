@@ -740,3 +740,23 @@ button.previousYear {
 .button.previousYear:hover {
   background-color: #F6F7FA !important;
 }
+
+/*error handling*/
+li.form-line-error {
+  background-color: transparent !important;
+  border: none !important;
+  position: relative !important;
+}
+
+li.form-line-error input,
+li.form-line-error textarea,
+li.form-line-error select {
+  border-color: #FF6D6D !important;
+  box-shadow: 0 0 0 3px rgba(255, 109, 109, 0.1) !important;
+}
+
+.form-error-message {
+  position: absolute !important;
+  bottom: -12px !important;
+  left: 10px !important;
+}
